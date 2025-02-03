@@ -6,7 +6,8 @@ const Footer = ({isDarkMode}) => {
   return (
     <div className='mt-20'>
       <div className='text-center'>
-        <Image src={isDarkMode ? assets.snehith_reddy_logo:assets.snehith_reddy_logo} width={300} alt="" className='mx-auto mb-2' />
+        {/*<Image src={isDarkMode ? assets.snehith_reddy_logo:assets.snehith_reddy_logo} width={300} alt="" className='mx-auto mb-2' />*/}
+        <h6 className={isDarkMode? "text-white text-[28px] font-bold mx-auto mb-2":'text-[28px] font-bold mx-auto mb-2'}>Snehith Reddy.</h6>
         <div className='w-max flex items-center gap-2 mx-auto'>
         <Image src={isDarkMode ? assets.mail_icon_dark:assets.mail_icon} alt="" className='w-6' />
         snehithreddy022@gmail.com
