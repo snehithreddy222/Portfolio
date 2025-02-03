@@ -22,7 +22,7 @@ const Work = ({isDarkMode}) => {
                                 <p className='text-sm text-gray-700'>{project.description}</p>
                             </div>
                             <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition '>
-                                <a href="https://snehith-food-bay-mern-frontend.onrender.com/"><Image src={assets.send_icon} alt="" className="w-5" /></a>
+                                <a href={project.link} target="_blank"><Image src={assets.send_icon} alt="" className="w-5" /></a>
 
                             </div>
                         </div>

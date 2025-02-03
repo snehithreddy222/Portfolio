@@ -116,21 +116,25 @@ export const workData = [
         title: 'Food Bay Web App',
         description: 'MERN Stack',
         bgImage: '/work-1.png',
+        link:"https://snehith-food-bay-mern-frontend.onrender.com/"
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Wikipedia Search',
+        description: 'wiki web site',
         bgImage: '/work-2.png',
+        link:"https://ksrwiki.ccbp.tech/"
     },
     {
-        title: 'Photography site',
+        title: 'Food Munch Web',
         description: 'Web Design',
         bgImage: '/work-3.png',
+        link:"https://ksrfoodmunch.ccbp.tech/"
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Todo List',
+        description: 'Java script',
         bgImage: '/work-4.png',
+        link:"https://todolistsnehith.ccbp.tech/"
     },
 ]
 
