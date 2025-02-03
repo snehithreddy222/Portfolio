@@ -10,7 +10,7 @@ const Footer = ({isDarkMode}) => {
         <h6 className={isDarkMode? "text-white text-[28px] font-bold mx-auto mb-2":'text-[28px] font-bold mx-auto mb-2'}>Snehith Reddy.</h6>
         <div className='w-max flex items-center gap-2 mx-auto'>
         <Image src={isDarkMode ? assets.mail_icon_dark:assets.mail_icon} alt="" className='w-6' />
-        snehithreddy022@gmail.com
+        <a href="">snehithreddy022@gmail.com</a>
         </div>
       </div>
       <div className='text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6'>
