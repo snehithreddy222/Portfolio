@@ -71,7 +71,7 @@ export default function DarkModeToggle() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.3 }}
-            className="absolute left-1/2 transform -translate-x-1/2 top-12 px-4 py-2 bg-gray-900 text-white text-sm rounded-md shadow-lg"
+            className="absolute left-1/2 transform -translate-x-1/2 w-[170px] top-20 px-4 py-2 bg-gray-900 text-white text-sm rounded-md shadow-lg"
           >
             {darkMode ? "Dark mode is ON 🌙" : "Light mode is ON ☀️"}
           </motion.div>
