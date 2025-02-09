@@ -27,8 +27,8 @@ export default function DarkModeToggle() {
       setTimeout(() => {
         setShowPopup(false);
         setAnimateIcon(false);
-      }, 2000); // Hide popup & stop animation after 2 sec
-    }, 5000); // Repeat every 5 sec
+      }, 4000); // Hide popup & stop animation after 4 sec
+    }, 15000); // Repeat every 15 sec
 
     return () => clearInterval(interval); // Cleanup on unmount
   }, []);
