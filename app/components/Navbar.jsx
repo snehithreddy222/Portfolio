@@ -1,6 +1,7 @@
 import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React,{useEffect, useRef, useState} from 'react'
+import DarkModeToggle from './popup';
 
 const navbar = ({isDarkMode,setIsDarkMode}) => {
     const [isScroll,setIsScroll] = useState(false);
@@ -46,11 +47,7 @@ const navbar = ({isDarkMode,setIsDarkMode}) => {
         </ul>
         
         <div className='flex items-center gap-4'>
-            <button onClick={()=>setIsDarkMode(prev => !prev)}>
-                
-                <Image src={isDarkMode ? assets.sun_icon: assets.moon_icon} alt="" className='w-6'/>
-                
-            </button>
+            <DarkModeToggle />
             <a href="#contact" className='hidden lg:flex items-center gap-3 px-10 py-2.5 rounded-full border border-gray-500 ml-4font-Ovo dark:border-white/50 '>Contact 
             <Image src={isDarkMode ? assets.arrow_icon_dark:assets.arrow_icon} className='w-3' alt="" /></a>
             <button className='block md:hidden'  onClick={openMenu}>
