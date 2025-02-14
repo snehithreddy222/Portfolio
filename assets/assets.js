@@ -52,9 +52,15 @@ import oracle from "./oracle.png";
 import salesforce from "./salesforce.png";
 import jira from "./jira.png";
 import github from "./github.png";
+import salesforce_data_migration from "./salesforce-data-migration.jpg";
+import bt_web_app from "./bt-web-app.jpg";
+import bt_logo from "./bt-logo.jpg";
 
 
 export const assets = {
+    bt_logo,
+    bt_web_app,
+    salesforce_data_migration,
     user_image1,
     code_icon,
     code_icon_dark,
@@ -116,27 +122,85 @@ export const workData = [
         title: 'Food Bay Web App',
         description: 'MERN Stack',
         bgImage: '/work-1.png',
-        link:"https://snehith-food-bay-mern-frontend.onrender.com/"
+        link:"https://snehith-food-bay-mern-frontend.onrender.com/",
+        type: 'personal',  // Personal project
     },
     {
         title: 'Wikipedia Search',
         description: 'wiki web site',
         bgImage: '/work-2.png',
-        link:"https://ksrwiki.ccbp.tech/"
+        link:"https://ksrwiki.ccbp.tech/",
+        type: 'personal',  // Personal project
     },
     {
         title: 'Food Munch Web',
         description: 'Web Design',
         bgImage: '/work-3.png',
-        link:"https://ksrfoodmunch.ccbp.tech/"
+        link:"https://ksrfoodmunch.ccbp.tech/",
+        type: 'personal',  // Personal project
     },
     {
         title: 'Todo List',
         description: 'Java script',
         bgImage: '/work-4.png',
-        link:"https://todolistsnehith.ccbp.tech/"
+        link:"https://todolistsnehith.ccbp.tech/",
+        type: 'personal',  // Personal project
     },
+    {
+        title: 'Virtusa Project 1',
+        description: 'A detailed description of the Virtusa project.',
+        bgImage: '/work-4.png',
+        link: 'https://project-link.com',
+        type: '',  // Professional project
+      },
+      {
+        title: "Salesforce Data Migration",
+        company: "Virtusa",
+        duration: "Jul 2021 - Jan 2023",
+        location: "Chennai, India",
+        type: 'professional',  // Professional project
+        description: [
+            "Orchestrated Salesforce data migration from BPS to EVS, achieving a 99.9% data integrity rate.",
+            "Engineered complex PL/SQL scripts and managed ETL processes via Oracle Data Integrator (ODI).",
+            "Designed scalable web applications using Next.js and TypeScript, integrating with Salesforce API.",
+            "Implemented GIT-based version control within Agile/Scrum, enhancing development efficiency by 20%."
+        ],
+        techStack: ["Oracle DB", "SQL Server", "PL/SQL", "ODI", "Next.js", "TypeScript", "Salesforce API"]
+    },
+    {
+        title: "Dynamic Web Application Development",
+        company: "Virtusa",
+        duration: "Feb 2023 - Dec 2024",
+        location: "Chennai, India",
+        type: 'professional',  // Professional project
+        description: [
+            "Developed a responsive web app using Next.js, TypeScript, and Material UI, increasing user satisfaction by 30%.",
+            "Enhanced code efficiency by 25% through modular component design following industry best practices.",
+            "Integrated frontend components with Node.js and Express.js backend, reducing API response time by 20%.",
+            "Translated complex business needs into technical solutions, delivering 3 major project phases successfully."
+        ],
+        techStack: ["Next.js", "TypeScript", "Material UI", "Node.js", "Express.js", "MongoDB", "AWS"]
+    }
 ]
+{/*export const workData = [
+    {
+      title: 'Virtusa Project 1',
+      description: 'A detailed description of the Virtusa project.',
+      bgImage: '/path/to/project-image.jpg',
+      link: 'https://project-link.com',
+      type: 'professional',  // Professional project
+    },
+    {
+      title: 'Personal Project 1',
+      description: 'A description of a personal side project.',
+      bgImage: '/path/to/personal-project-image.jpg',
+      link: 'https://personal-project-link.com',
+      type: 'personal',  // Personal project
+    },
+    // Add more projects...
+  ];
+  */}
+  
 
 export const serviceData = [
     { icon: assets.web_development, title: 'Web Development', description: "I craft visually appealing, responsive, and high-performance websites tailored to client needs. Using modern technologies like HTML, CSS, JavaScript, React, Next.js, and TypeScript, I focus on delivering seamless user experiences with clean, intuitive designs. My expertise in UI/UX, accessibility, and full-stack integration ensures functional, scalable, and engaging web solutions.", link: '' },
@@ -155,6 +219,6 @@ export const infoList = [
 
 export const toolsData = [
     assets.vscode, assets.jira,  assets.mongodb, assets.git, assets.github, assets.python , assets.html, assets.css, assets.javascript, assets.salesforce,
-    assets.nodejs, assets.reactjs
+    assets.nodejs, assets.reactjs, assets.oracle
 
 ];
