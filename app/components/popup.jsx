@@ -27,8 +27,8 @@ export default function DarkModeToggle() {
       setTimeout(() => {
         setShowPopup(false);
         setAnimateIcon(false);
-      }, 4000); // Hide popup & stop animation after 4 sec
-    }, 15000); // Repeat every 15 sec
+      }, 10000); // Hide popup & stop animation after 2 sec
+    }, 2000); // Repeat every 5 sec
 
     return () => clearInterval(interval); // Cleanup on unmount
   }, []);
@@ -70,10 +70,10 @@ export default function DarkModeToggle() {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
-            transition={{ duration: 0.3 }}
-            className="absolute left-1/2 transform -translate-x-1/2 w-[170px] top-20 px-4 py-2 bg-gray-900 text-white text-sm rounded-md shadow-lg"
+            transition={{ duration: 0.5 }}
+            
           >
-            {darkMode ? "Dark mode is ON 🌙" : "Light mode is ON ☀️"}
+            
           </motion.div>
         )}
       </AnimatePresence>
