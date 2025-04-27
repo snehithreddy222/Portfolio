@@ -20,7 +20,7 @@ const Header = () => {
       </motion.p>
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
         <motion.a initial={{ y:-30,opacity:0 }} whileInView={{ y:0,opacity:1 }} transition={{ duration: 0.6, delay: 1 }}  href='#contact' className='gap-2 px-10 py-3 rounded-full border border-white flex items-center bg-black text-white dark:bg-transparent '>Contact me <Image src={assets.right_arrow_white} alt="" className='w-4' /></motion.a>
-        <motion.a initial={{ y:-30,opacity:0 }} whileInView={{ y:0,opacity:1 }} transition={{ duration: 0.6, delay: 1.2 }} href='/snehith-resume.pdf' download className='gap-2 px-10 py-3 rounded-full border border-gray-500 flex items-center bg-white dark:text-black'>My Resume <Image src={assets.download_icon} alt="" className='w-4' /></motion.a>
+        <motion.a initial={{ y:-30,opacity:0 }} whileInView={{ y:0,opacity:1 }} transition={{ duration: 0.6, delay: 1.2 }} href='/Snehith_reddy_FullStack_Intern_Resume.pdf' download className='gap-2 px-10 py-3 rounded-full border border-gray-500 flex items-center bg-white dark:text-black'>My Resume <Image src={assets.download_icon} alt="" className='w-4' /></motion.a>
       </div>
     </div>
 
