@@ -56,7 +56,7 @@ const Work = ({ isDarkMode }) => {
         "React", "Next.js", "TypeScript", "Material UI",
         "Node.js", "Express.js", "Oracle DB", "MongoDB", "GitLab CI/CD"
       ],
-      image: assets.bt_thumb // add a thumbnail (see guidance below)
+      image: assets.bt_web_app // add a thumbnail (see guidance below)
     }
   ]
 
