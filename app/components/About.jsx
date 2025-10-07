@@ -15,9 +15,16 @@ const About = ({isDarkMode}) => {
                 </div>
                 
                     <p className='mb-10 max-w-2xl font-Ovo'>
-                        I am Snehith Reddy, a results-driven Full Stack Developer with expertise in MERN stack, Python, and PL/SQL, currently pursuing my Master’s in Computer Information Technology at Elmhurst University. With experience as a Software Engineer at Virtusa, I have worked on web applications, data migrations, and backend development, leveraging technologies like React, TypeScript, Node.js, Oracle DB, and Salesforce. I have also built scalable applications, including a MERN-based food delivery app and a BT client’s enterprise platform with dashboards and analytics.
-                        Additionally, I have experience in firmware development, automated testing, and working in both Windows and Linux environments. Passionate about solving complex problems and optimizing performance, I am actively seeking opportunities as a Full Stack Developer to contribute my skills and grow in a dynamic environment.
-                    </p>
+  I am Snehith Reddy, a passionate and results-driven Full Stack Developer specializing in building secure, scalable, and high-performance web applications. Currently pursuing my Master’s in Computer Information Technology at Elmhurst University, I bring hands-on experience from multiple product and internship roles across startup and enterprise environments.
+  <br /><br />
+  At <b>Varmodel AI</b>, I work on a Vue 3 + Django REST-based social platform, developing OAuth integrations, PostgreSQL-backed APIs, Redis caching, and CI/CD pipelines with Docker and GitLab for cloud deployments on DigitalOcean. Previously at <b>Treevah</b>, I built a React + Node.js file management system integrated with Azure AD authentication, guest sandbox personas, and automated deployments on Azure.
+  <br /><br />
+  Earlier, as a <b>Software Engineer at Virtusa</b>, I developed enterprise-grade applications for British Telecommunications using React, Next.js, Node.js, and Oracle DB, delivering data-driven dashboards and analytics.
+  <br /><br />
+  Skilled across modern technologies — including Vue, React, Django, Node.js, PostgreSQL, Redis, Docker, and CI/CD — I’m deeply passionate about crafting smooth user experiences, secure API architectures, and efficient system designs. I’m actively seeking opportunities to contribute as a Full Stack Developer in dynamic, product-driven teams.
+</p>
+
+                
 
             </div>
             <div  className='flex-1'>
