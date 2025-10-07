@@ -55,6 +55,8 @@ import github from "./github.png";
 import salesforce_data_migration from "./salesforce-data-migration.jpg";
 import bt_web_app from "./bt-web-app.jpg";
 import bt_logo from "./bt-logo.jpg";
+import treevah from "./treevah.jpeg";
+import varmodel from "./varmodel.jpeg";
 
 
 export const assets = {
@@ -115,6 +117,8 @@ export const assets = {
     github,
     jira,
     salesforce,
+    treevah,
+    varmodel
 };
 
 export const workData = [
