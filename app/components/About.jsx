@@ -15,14 +15,9 @@ const About = ({isDarkMode}) => {
                 </div>
                 
                     <p className='mb-10 max-w-2xl font-Ovo'>
-  I am Snehith Reddy, a passionate and results-driven Full Stack Developer specializing in building secure, scalable, and high-performance web applications. Currently pursuing my Master’s in Computer Information Technology at Elmhurst University, I bring hands-on experience from multiple product and internship roles across startup and enterprise environments.
-  <br /><br />
-  At <b>Varmodel AI</b>, I work on a Vue 3 + Django REST-based social platform, developing OAuth integrations, PostgreSQL-backed APIs, Redis caching, and CI/CD pipelines with Docker and GitLab for cloud deployments on DigitalOcean. Previously at <b>Treevah</b>, I built a React + Node.js file management system integrated with Azure AD authentication, guest sandbox personas, and automated deployments on Azure.
-  <br /><br />
-  Earlier, as a <b>Software Engineer at Virtusa</b>, I developed enterprise-grade applications for British Telecommunications using React, Next.js, Node.js, and Oracle DB, delivering data-driven dashboards and analytics.
-  <br /><br />
-  Skilled across modern technologies — including Vue, React, Django, Node.js, PostgreSQL, Redis, Docker, and CI/CD — I’m deeply passionate about crafting smooth user experiences, secure API architectures, and efficient system designs. I’m actively seeking opportunities to contribute as a Full Stack Developer in dynamic, product-driven teams.
+  I am Snehith Reddy, a results-driven Full Stack Developer specializing in building secure, scalable, and high-performance web applications using technologies like Vue, React, Django, Node.js, PostgreSQL, Redis, Docker, and CI/CD pipelines. Currently pursuing my Master’s in Computer Information Technology at Elmhurst University, I have hands-on experience across both startup and enterprise environments. At Varmodel AI, I work on a Vue 3 and Django REST-based social platform, implementing OAuth integrations, PostgreSQL-backed APIs, Redis caching, and automated deployments on DigitalOcean through GitLab CI/CD. Previously at Treevah, I developed a React and Node.js file management system with Azure AD authentication, sandbox personas, and Azure-based CI/CD deployments. Earlier, as a Software Engineer at Virtusa, I built enterprise-grade applications for British Telecommunications using React, Next.js, Node.js, and Oracle DB, delivering data-driven dashboards and analytics solutions. Passionate about solving complex problems, optimizing performance, and enhancing user experience, I strive to create impactful digital products that blend innovation with scalability.
 </p>
+
 
                 
 
