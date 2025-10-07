@@ -21,7 +21,7 @@ const Work = ({ isDarkMode }) => {
         "Django REST", "PostgreSQL", "Redis",
         "Docker", "GitLab CI/CD", "DigitalOcean", "Nginx", "OAuth"
       ],
-      image: assets.varmodel_thumb // add a thumbnail (see guidance below)
+      image: assets.varmodel // add a thumbnail (see guidance below)
     },
     {
       title: "Smart File Management Platform",
@@ -39,7 +39,7 @@ const Work = ({ isDarkMode }) => {
         "PostgreSQL", "Redis", "Azure App Services",
         "GitHub Actions", "Azure AD B2C/B2B"
       ],
-      image: assets.treevah_thumb // add a thumbnail (see guidance below)
+      image: assets.treevah // add a thumbnail (see guidance below)
     },
     {
       title: "Enterprise Web Application (Client: BT)",
