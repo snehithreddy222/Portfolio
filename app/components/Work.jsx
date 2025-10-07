@@ -83,7 +83,7 @@ const Work = ({ isDarkMode }) => {
                          dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50'
             >
               {/* Project Image */}
-              <div className="mb-4">
+              /*<div className="mb-4">
                 <Image
                   src={project.image}
                   alt={project.title}
@@ -92,7 +92,20 @@ const Work = ({ isDarkMode }) => {
                   className="rounded-lg w-full h-auto object-cover"
                   priority={index === 0}
                 />
-              </div>
+              </div>*/
+
+              {/* Project Image */}
+<div className="relative w-full h-56 md:h-64 overflow-hidden rounded-lg mb-4">
+  <Image
+    src={project.image}
+    alt={project.title}
+    fill                 // <-- makes the image fill the parent
+    className="object-cover"  // <-- crops to keep aspect, no distortion
+    sizes="(min-width: 768px) 700px, 100vw"
+    priority={index === 0}
+  />
+</div>
+
 
               <h4 className='text-xl font-semibold mb-2'>{project.title}</h4>
               <p className='text-sm text-gray-600 dark:text-gray-400'>
